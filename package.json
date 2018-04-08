@@ -1,0 +1,20 @@
+{
+  "name": "push-service",
+  "version": "1.0.0",
+  "description": "Simple push notification service",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "author": "Ben Campion",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-validator": "^5.1.1",
+    "got": "^8.3.0"
+  },
+  "devDependencies": {
+    "jest": "^22.4.3",
+    "mockdate": "^2.0.2"
+  }
+}
